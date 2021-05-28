@@ -1,5 +1,5 @@
 'use strict'
-
+header('Access-Control-Allow-Origin: *');
 $(document).ready( function(){
     mostrarL();
     actualizar();
